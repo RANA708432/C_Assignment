@@ -34,7 +34,9 @@
     <p align="center">
         <img src="images/739101167_2049857312569363_9148720329818756732_n.jpg"
              alt="Abu Sayeed Rana"
-             width="250">
+             width="250"
+             
+>
     </p>
 
 
@@ -307,6 +309,103 @@
     </ol>
 
     <hr>
+<!-- My Location Section -->
+<section id="location">
+
+    <center>
+        <h2>My Location</h2>
+
+        <p>You can find my location on Google Maps.</p>
+
+        <iframe
+            src="https://maps.google.com/maps?q=Netrokona,Bangladesh&output=embed"
+            width="600"
+            height="400"
+            style="border:0;"
+            allowfullscreen
+            loading="lazy"
+            title="My Location">
+        </iframe>
+
+        <br><br>
+
+        <a href="https://www.google.com/maps?q=Nertokona,Bangladesh"
+           target="_blank">
+            Open Location in Google Maps
+        </a>
+
+    </center>
+
+</section>
+
+<hr>
+<hr>
+
+<section id="goals">
+
+    <h2>My Future Goals</h2>
+
+    <ul>
+        <li>Become a Professional Web Developer.</li>
+        <li>Learn Advanced JavaScript and React.</li>
+        <li>Develop Mobile Applications Using Flutter.</li>
+        <li>Build Real-World Software Projects.</li>
+        <li>Contribute to Open-Source Projects.</li>
+    </ul>
+
+</section>
+
+<hr>
+
+<section id="hobbies">
+
+    <h2>My Hobbies</h2>
+
+    <ul>
+        <li>Learning New Technologies</li>
+        <li>Programming and Coding</li>
+        <li>Exploring Computer Science</li>
+        <li>Building New Projects</li>
+        <li>Reading Technology Articles</li>
+    </ul>
+
+</section>
+<hr>
+
+<!-- Digital Clock Section -->
+<section id="clock">
+
+    <center>
+        <h2>⏰ Current Time</h2>
+
+        <h3 id="time" style="
+            font-size: 35px;
+            color: blue;
+            background-color: lightyellow;
+            padding: 20px;
+            display: inline-block;
+            border-radius: 10px;
+        "></h3>
+
+        <p>Live Digital Clock</p>
+    </center>
+
+    <script>
+        function showTime() {
+            let now = new Date();
+
+            document.getElementById("time").innerHTML =
+                now.toLocaleTimeString();
+        }
+
+        showTime();
+
+        setInterval(showTime, 1000);
+    </script>
+
+</section>
+
+<hr>
 
     <!-- Footer -->
 
@@ -319,6 +418,7 @@
         <br><br>
         &copy; 2026 Abu Sayeed Rana. All Rights Reserved.
     </p>
+
 
 </body>
 
